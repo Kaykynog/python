@@ -16,14 +16,15 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
-palavra = 'salgadinho'
+palavra = 'londres'
 digitado = []
 chances = 10
 
 print('*' * 90)
 print('Bem vindo ao joguinho do Kayky, você terá 10 chances para acertar a palavra secreta! \nSera que você consegue? ')
 print('*' * 90)
-print('Dica: é de comer!\n')
+
+print('Dica: é um lugar!\n')
 
 import os   
 os.system("pause")
